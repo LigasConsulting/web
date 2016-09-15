@@ -1,0 +1,19 @@
+body{
+    background-color: #deeaff;
+}
+.content{
+    margin-top: 10%;
+}
+
+.center-block {
+    margin: auto;
+    display: block;
+}
+
+img.size {
+    height: 50vh;
+}
+h1{
+    text-align: center;
+    color: #757a8c;
+}

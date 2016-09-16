@@ -3,6 +3,8 @@ body{
 }
 .content{
     margin-top: 10%;
+    text-align: center;
+    color: #757a8c;
 }
 
 .center-block {
@@ -12,8 +14,4 @@ body{
 
 img.size {
     height: 50vh;
-}
-h1{
-    text-align: center;
-    color: #757a8c;
 }

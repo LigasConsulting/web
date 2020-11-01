@@ -182,3 +182,7 @@ p.copyright {
 .text-weight {
     font-weight: normal;
 }
+
+.white-text {
+    color: white;
+}

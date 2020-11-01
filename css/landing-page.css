@@ -178,3 +178,7 @@ p.copyright {
     width: 30px;
     height: 30px;
 }
+
+.text-weight {
+    font-weight: normal;
+}

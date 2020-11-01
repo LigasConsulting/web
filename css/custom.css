@@ -15,3 +15,7 @@ body{
 img.size {
     height: 50vh;
 }
+
+text-weight {
+    font-weight: normal;
+}

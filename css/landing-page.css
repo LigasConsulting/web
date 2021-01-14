@@ -186,3 +186,8 @@ p.copyright {
 .white-text {
     color: white;
 }
+
+.jobs-links {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-bottom: 5px;
+}

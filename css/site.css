@@ -325,7 +325,7 @@ a { color: inherit; }
 
 .logos {
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     align-items: center;
     gap: 3rem clamp(2rem, 5vw, 4rem);
     margin: clamp(2.5rem, 5vw, 3.5rem) 0 0;
@@ -557,8 +557,6 @@ a { color: inherit; }
     .tech { grid-template-columns: repeat(3, minmax(0, 1fr)); max-width: 30rem; }
 
     .founder__photo { max-width: 16rem; }
-
-    .logos { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 
 @media (max-width: 36rem) {

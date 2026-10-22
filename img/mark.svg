@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -10 620 820" stroke="#2b3442" stroke-width="12" stroke-linejoin="round">
+  <defs>
+    <g id="c">
+      <path fill="#c3c9d2" d="M0 0h200v200H0z"/>
+      <path fill="#e3e7ec" d="M0 0h200l100-100H100z"/>
+      <path fill="#9aa3b1" d="M200 0l100-100v200l-100 100z"/>
+    </g>
+  </defs>
+  <use href="#c" x="0" y="600"/>
+  <use href="#c" x="300" y="500"/>
+  <use href="#c" x="0" y="400"/>
+  <use href="#c" x="100" y="100"/>
+  <use href="#c" x="300" y="100"/>
+</svg>

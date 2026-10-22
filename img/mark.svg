@@ -1,14 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -10 620 820" stroke="#2b3442" stroke-width="12" stroke-linejoin="round">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 562 362" stroke="#2b3442" stroke-width="6.0" stroke-linejoin="round">
   <defs>
     <g id="c">
-      <path fill="#c3c9d2" d="M0 0h200v200H0z"/>
-      <path fill="#e3e7ec" d="M0 0h200l100-100H100z"/>
-      <path fill="#9aa3b1" d="M200 0l100-100v200l-100 100z"/>
+      <path fill="#c3c9d2" d="M0 0h100v100H0z"/>
+      <path fill="#e3e7ec" d="M0 0h100l50-50H50z"/>
+      <path fill="#9aa3b1" d="M100 0l50-50v100l-50 50z"/>
+    </g>
+    <g id="a">
+      <path fill="#1f4fd8" d="M0 0h100v100H0z"/>
+      <path fill="#5b80ea" d="M0 0h100l50-50H50z"/>
+      <path fill="#1638a0" d="M100 0l50-50v100l-50 50z"/>
     </g>
   </defs>
-  <use href="#c" x="0" y="600"/>
-  <use href="#c" x="300" y="500"/>
-  <use href="#c" x="0" y="400"/>
-  <use href="#c" x="100" y="100"/>
-  <use href="#c" x="300" y="100"/>
+  <use href="#c" x="0" y="250"/>
+  <use href="#c" x="100" y="250"/>
+  <use href="#c" x="300" y="250"/>
+  <use href="#c" x="400" y="250"/>
+  <use href="#c" x="0" y="150"/>
+  <use href="#c" x="300" y="150"/>
+  <use href="#c" x="0" y="50"/>
+  <use href="#c" x="300" y="50"/>
+  <use href="#a" x="400" y="50"/>
 </svg>

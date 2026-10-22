@@ -210,11 +210,11 @@ a { color: inherit; }
 
 .mark {
     width: 100%;
-    max-width: 22rem;
+    max-width: 26rem;
     justify-self: center;
     overflow: visible;
     stroke: var(--cube-edge);
-    stroke-width: 3;
+    stroke-width: 2.5;
     stroke-linejoin: round;
 }
 
@@ -223,7 +223,7 @@ a { color: inherit; }
     --top: var(--cube-top);
     --side: var(--cube-side);
     animation: stack .7s cubic-bezier(.2, .9, .25, 1) both;
-    animation-delay: calc(200ms + var(--i) * 140ms);
+    animation-delay: calc(200ms + var(--i) * 90ms);
 }
 
 .mark__cube--accent {
@@ -548,7 +548,7 @@ a { color: inherit; }
     .mark {
         grid-row: 1;
         justify-self: start;
-        max-width: 9rem;
+        max-width: 11rem;
     }
 
     .approach__list,

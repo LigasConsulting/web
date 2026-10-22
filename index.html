@@ -21,12 +21,12 @@
     <meta property="og:image" content="https://www.ligasconsulting.com/img/og.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Ligas Consulting logo, the letters L and C built from cubes, beside the text: software consultancy for full-stack TypeScript, Java and Liferay">
+    <meta property="og:image:alt" content="Ligas Consulting logo, the letters L and C built from overlapping cubes, beside the text: software consultancy for full-stack TypeScript, Java and Liferay">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Ligas Consulting | React, Node.js, Java and Liferay consultancy">
     <meta name="twitter:description" content="We build full-stack TypeScript, Java and Liferay software on AWS and Azure, using AI-enhanced, human-guided development, and train the teams who run it.">
     <meta name="twitter:image" content="https://www.ligasconsulting.com/img/og.png">
-    <meta name="twitter:image:alt" content="Ligas Consulting logo, the letters L and C built from cubes, beside the text: software consultancy for full-stack TypeScript, Java and Liferay">
+    <meta name="twitter:image:alt" content="Ligas Consulting logo, the letters L and C built from overlapping cubes, beside the text: software consultancy for full-stack TypeScript, Java and Liferay">
 
     <link rel="icon" href="/favicon.ico" sizes="48x48">
     <link rel="icon" href="img/mark.svg" type="image/svg+xml">
@@ -352,7 +352,7 @@
 <header class="site-header">
     <div class="wrap site-header__inner">
         <a class="brand" href="#top" aria-label="Ligas Consulting, back to top">
-            <img src="img/mark.svg" alt="" width="34" height="22">
+            <img src="img/mark.svg" alt="" width="23" height="29">
             <span>Ligas Consulting</span>
         </a>
         <nav aria-label="Main">
@@ -379,7 +379,7 @@
                 </div>
             </div>
 
-            <svg class="mark" viewBox="-6 -6 562 362" role="img" aria-label="Ligas Consulting logo: the letters L and C built from cubes">
+            <svg class="mark" viewBox="-6 -6 412 512" role="img" aria-label="Ligas Consulting logo: the letters L and C built from overlapping cubes">
                 <defs>
                     <g id="cube">
                         <path class="mark__front" d="M0 0h100v100H0z"/>
@@ -387,16 +387,15 @@
                         <path class="mark__side" d="M100 0l50-50v100l-50 50z"/>
                     </g>
                 </defs>
-                <!-- drawn bottom row first, left to right, so each cube covers the hidden faces of its neighbours -->
-                <use class="mark__cube" style="--i:0" href="#cube" x="0" y="250"/>
-                <use class="mark__cube" style="--i:1" href="#cube" x="100" y="250"/>
-                <use class="mark__cube" style="--i:2" href="#cube" x="300" y="250"/>
-                <use class="mark__cube" style="--i:3" href="#cube" x="400" y="250"/>
-                <use class="mark__cube" style="--i:4" href="#cube" x="0" y="150"/>
-                <use class="mark__cube" style="--i:5" href="#cube" x="300" y="150"/>
-                <use class="mark__cube" style="--i:6" href="#cube" x="0" y="50"/>
-                <use class="mark__cube" style="--i:7" href="#cube" x="300" y="50"/>
-                <use class="mark__cube mark__cube--accent" style="--i:8" href="#cube" x="400" y="50"/>
+                <!-- the C sits one depth step behind the L: back cubes first, then bottom row up, left to right -->
+                <use class="mark__cube" style="--i:0" href="#cube" x="250" y="350"/>
+                <use class="mark__cube" style="--i:1" href="#cube" x="50" y="50"/>
+                <use class="mark__cube" style="--i:2" href="#cube" x="150" y="50"/>
+                <use class="mark__cube mark__cube--accent" style="--i:3" href="#cube" x="250" y="50"/>
+                <use class="mark__cube" style="--i:4" href="#cube" x="0" y="400"/>
+                <use class="mark__cube" style="--i:5" href="#cube" x="100" y="400"/>
+                <use class="mark__cube" style="--i:6" href="#cube" x="0" y="300"/>
+                <use class="mark__cube" style="--i:7" href="#cube" x="0" y="200"/>
             </svg>
         </div>
     </section>

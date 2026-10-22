@@ -210,7 +210,7 @@ a { color: inherit; }
 
 .mark {
     width: 100%;
-    max-width: 26rem;
+    max-width: 21rem;
     justify-self: center;
     overflow: visible;
     stroke: var(--cube-edge);
@@ -548,7 +548,7 @@ a { color: inherit; }
     .mark {
         grid-row: 1;
         justify-self: start;
-        max-width: 11rem;
+        max-width: 8rem;
     }
 
     .approach__list,

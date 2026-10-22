@@ -323,50 +323,29 @@ a { color: inherit; }
     font-size: clamp(1.875rem, 1.3rem + 2vw, 2.75rem);
 }
 
-.clients__lede {
-    margin-top: 1.25rem;
-    max-width: 38rem;
-    color: var(--muted);
-    font-size: 1.125rem;
-}
-
-.clients__list {
+.logos {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: clamp(2.5rem, 5vw, 4rem);
-    margin-top: clamp(2.5rem, 5vw, 3.5rem);
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    align-items: center;
+    gap: 3rem clamp(2rem, 5vw, 4rem);
+    margin: clamp(2.5rem, 5vw, 3.5rem) 0 0;
+    padding: 0;
+    list-style: none;
 }
 
-.client {
-    display: flex;
-    flex-direction: column;
-    gap: .9rem;
-    padding-top: 1.5rem;
-    border-top: 2px solid var(--ink);
+/* logos are black silhouettes; heights are tuned by eye so each carries similar visual weight */
+.logos img {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    height: var(--h, 2rem);
+    object-fit: contain;
+    object-position: left center;
+    opacity: .72;
 }
 
-.client__name {
-    font-size: clamp(1.375rem, 1.1rem + .8vw, 1.75rem);
-    font-weight: 800;
-    font-stretch: 112%;
-    line-height: 1.1;
-}
-
-.client__meta {
-    color: var(--ink);
-    font-size: .9375rem;
-    font-weight: 600;
-}
-
-.client p:last-child {
-    color: var(--muted);
-}
-
-.clients__more {
-    margin-top: clamp(2.5rem, 5vw, 3.5rem);
-    padding-top: 1.5rem;
-    border-top: 1px solid var(--rule);
-    color: var(--muted);
+@media (prefers-color-scheme: dark) {
+    .logos img { filter: invert(1); opacity: .8; }
 }
 
 /* Founder */
@@ -572,18 +551,21 @@ a { color: inherit; }
     }
 
     .approach__list,
-    .clients__list,
     .founder__inner,
     .faq__item { grid-template-columns: 1fr; }
 
     .tech { grid-template-columns: repeat(3, minmax(0, 1fr)); max-width: 30rem; }
 
     .founder__photo { max-width: 16rem; }
+
+    .logos { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 
 @media (max-width: 36rem) {
     .services__list { grid-template-columns: 1fr; }
     .brand span { display: none; }
+    .logos { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem 1.5rem; }
+    .logos img { height: calc(var(--h, 2rem) * .8); }
 }
 
 @media (prefers-reduced-motion: reduce) {

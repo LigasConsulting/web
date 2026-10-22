@@ -13,10 +13,7 @@ Core technologies: Java, Spring Boot, React, React Native, Node.js, Liferay DXP,
 
 ## Clients
 
-- **Vodafone** (telecommunications, 2017 to 2024): long-term technical architecture on Liferay portal platforms; reviewed and improved existing implementations, helped build up an internal development team and led developers on digital transformation work.
-- **Proventeq** (content migration software, since 2017): Liferay subject-matter expertise, solution architecture and hands-on engineering for product development.
-- **Charity Commission for England and Wales** (public sector, 2016 to 2017): Liferay DXP solution design for a public-facing digital platform integrated with the wider enterprise landscape, and leadership of the Liferay development team.
-- Earlier engagements and roles include Liferay, Inchcape, Capita Employee Benefits and IBA CZ.
+Ligas Consulting has worked with Vodafone, Hays, Capita, Inchcape, Liferay, Proventeq and the Charity Commission for England and Wales.
 
 ## Founder
 

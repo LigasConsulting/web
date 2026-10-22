@@ -110,7 +110,7 @@ a { color: inherit; }
     position: sticky;
     top: 0;
     z-index: 10;
-    background: color-mix(in srgb, var(--paper) 88%, transparent);
+    background: color-mix(in srgb, var(--paper) 95%, transparent);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--rule);
@@ -285,6 +285,139 @@ a { color: inherit; }
     max-width: 30rem;
 }
 
+.tech {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.1rem 1.5rem;
+    max-width: 20rem;
+    margin: 2.25rem 0 0;
+    padding: 0;
+    list-style: none;
+    font-size: .9375rem;
+    font-weight: 600;
+}
+
+.tech li {
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+}
+
+.tech__logo {
+    flex: none;
+    width: 1.75rem;
+    height: 1.75rem;
+    background: var(--ink);
+    -webkit-mask: var(--logo) center / contain no-repeat;
+    mask: var(--logo) center / contain no-repeat;
+}
+
+/* Clients */
+
+.clients {
+    border-top: 1px solid var(--rule);
+    padding: clamp(4rem, 10vw, 7.5rem) 0;
+}
+
+.clients h2 {
+    font-size: clamp(1.875rem, 1.3rem + 2vw, 2.75rem);
+}
+
+.clients__lede {
+    margin-top: 1.25rem;
+    max-width: 38rem;
+    color: var(--muted);
+    font-size: 1.125rem;
+}
+
+.clients__list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: clamp(2.5rem, 5vw, 4rem);
+    margin-top: clamp(2.5rem, 5vw, 3.5rem);
+}
+
+.client {
+    display: flex;
+    flex-direction: column;
+    gap: .9rem;
+    padding-top: 1.5rem;
+    border-top: 2px solid var(--ink);
+}
+
+.client__name {
+    font-size: clamp(1.375rem, 1.1rem + .8vw, 1.75rem);
+    font-weight: 800;
+    font-stretch: 112%;
+    line-height: 1.1;
+}
+
+.client__meta {
+    color: var(--ink);
+    font-size: .9375rem;
+    font-weight: 600;
+}
+
+.client p:last-child {
+    color: var(--muted);
+}
+
+.clients__more {
+    margin-top: clamp(2.5rem, 5vw, 3.5rem);
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+    color: var(--muted);
+}
+
+/* Founder */
+
+.founder {
+    background: var(--paper-raised);
+    padding: clamp(4rem, 10vw, 7.5rem) 0;
+}
+
+.founder__inner {
+    display: grid;
+    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    align-items: center;
+    gap: clamp(2.5rem, 7vw, 6rem);
+}
+
+/* the offset block echoes the receding face of the logo's cubes */
+.founder__photo {
+    display: block;
+    max-width: 26rem;
+    box-shadow: 18px -18px 0 var(--cube-side);
+}
+
+.founder__photo img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.founder h2 {
+    font-size: clamp(1.875rem, 1.3rem + 2vw, 2.75rem);
+}
+
+.founder__name {
+    margin-top: 1rem;
+    font-size: 1.125rem;
+    font-weight: 650;
+    font-stretch: 108%;
+}
+
+.founder__copy > p:not(.founder__name) {
+    margin-top: 1rem;
+    max-width: 38rem;
+    color: var(--muted);
+}
+
+.founder__copy .link {
+    display: inline-block;
+    margin-top: 1.75rem;
+}
+
 /* Approach */
 
 .approach {
@@ -315,13 +448,53 @@ a { color: inherit; }
     color: var(--band-muted);
 }
 
+/* FAQ */
+
+.faq {
+    padding: clamp(4rem, 10vw, 7.5rem) 0 0;
+}
+
+.faq h2 {
+    font-size: clamp(1.875rem, 1.3rem + 2vw, 2.75rem);
+}
+
+.faq__list {
+    margin: clamp(2rem, 5vw, 3rem) 0 0;
+}
+
+.faq__item {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+    gap: .75rem clamp(2.5rem, 6vw, 5rem);
+    padding: 1.75rem 0;
+    border-top: 1px solid var(--rule);
+}
+
+.faq__item dt {
+    font-weight: 650;
+    font-stretch: 108%;
+    font-size: 1.125rem;
+    line-height: 1.35;
+}
+
+.faq__item dd {
+    margin: 0;
+    max-width: 40rem;
+    color: var(--muted);
+}
+
+.faq__item dd a {
+    color: var(--accent);
+}
+
 /* Contact */
 
 .contact {
     padding: clamp(4.5rem, 12vw, 9rem) 0;
 }
 
-.contact h2 {
+.contact h2,
+.contact__title {
     font-size: clamp(2rem, 1.2rem + 3vw, 3.5rem);
     font-weight: 800;
     letter-spacing: -0.02em;
@@ -398,7 +571,14 @@ a { color: inherit; }
         max-width: 9rem;
     }
 
-    .approach__list { grid-template-columns: 1fr; }
+    .approach__list,
+    .clients__list,
+    .founder__inner,
+    .faq__item { grid-template-columns: 1fr; }
+
+    .tech { grid-template-columns: repeat(3, minmax(0, 1fr)); max-width: 30rem; }
+
+    .founder__photo { max-width: 16rem; }
 }
 
 @media (max-width: 36rem) {

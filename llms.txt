@@ -1,0 +1,43 @@
+# Ligas Consulting
+
+> Ligas Consulting (Ligas Consulting Ltd.) is a software consultancy specialising in enterprise web applications built with Java, React and Liferay. It designs and delivers solutions together with clients' business teams and trains development teams in modern coding, deployment and operations practice.
+
+## Services
+
+- **Java web applications**: design and development of Java web applications and services with Spring and Spring Boot, together with the client's business team, from architecture decisions through to production.
+- **React and micro-frontends**: React applications for enterprise environments, React Native apps for mobile, and splitting large front ends into micro-frontends that teams can ship independently.
+- **Liferay**: in-depth Liferay consulting (the founder spent two years as a consultant at Liferay itself), design of large deployments, and development on Liferay.
+- **Team training**: training and day-to-day mentoring shaped around the client's company that brings engineers up to date across coding, deployment and operations.
+
+Core technologies: Java, Spring Boot, React, React Native, Node.js, Liferay DXP, Docker, Amazon Web Services (AWS), CI/CD.
+
+## Clients
+
+- **Vodafone** (telecommunications, 2017 to 2024): technical architecture for Vodafone's Liferay portal platform; helped build an internal team delivering a reusable portal and UI framework; led a team of four developers on the ADAM digital transformation programme.
+- **Proventeq** (content migration software, since 2017): Liferay expertise for Proventeq's Liferay projects; designed the base architecture and built the working prototype of their new ETL product on Kafka, Spring, React and Elasticsearch, with AI models for data enrichment.
+- **Charity Commission for England and Wales** (public sector, 2016 to 2017): designed the Liferay DXP layer of a new digital services platform integrated with MuleSoft and JBoss BRMS, and led the Liferay development team.
+- Earlier engagements and roles include Liferay, Inchcape, Capita Employee Benefits and IBA CZ.
+
+## Founder
+
+Miroslav Ligas is the founder and lead consultant of Ligas Consulting, founded in 2016. He is a solution architect and Liferay specialist with over 15 years of commercial experience in enterprise Java, full-stack React, large Liferay deployments and AWS infrastructure. He stays hands-on in every engagement: designing architectures, writing and reviewing production code and mentoring developers. He studied at the Faculty of Informatics at Masaryk University in Brno and is based in London.
+
+- LinkedIn: https://www.linkedin.com/in/miroslav-ligas/
+
+## How Ligas Consulting works
+
+- Works directly with the client's business team so the solution fits how the business operates.
+- Fits every engagement to the client's stack, constraints and people.
+- Cares about the whole lifecycle: builds, deployment and keeping systems healthy in production.
+
+## Contact
+
+- Location: London, United Kingdom
+- Email: info@ligasconsulting.com
+- Website: https://www.ligasconsulting.com/
+- LinkedIn: https://www.linkedin.com/company/ligas-consulting-ltd/
+- GitHub: https://github.com/mir333
+
+## Pages
+
+- [Home](https://www.ligasconsulting.com/): services, clients, founder, approach, frequently asked questions and contact details.

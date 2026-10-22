@@ -1,7 +1,7 @@
 {
     "name": "Ligas Consulting",
     "short_name": "Ligas",
-    "description": "Software consultancy for Java, React and Liferay.",
+    "description": "Software consultancy for full-stack TypeScript, Java and Liferay.",
     "start_url": "/",
     "display": "browser",
     "background_color": "#f3f5f8",

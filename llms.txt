@@ -1,15 +1,21 @@
 # Ligas Consulting
 
-> Ligas Consulting (Ligas Consulting Ltd.) is a software consultancy specialising in enterprise web applications built with Java, React and Liferay. It designs and delivers solutions together with clients' business teams and trains development teams in modern coding, deployment and operations practice.
+> Ligas Consulting (Ligas Consulting Ltd.) is a software consultancy specialising in full-stack TypeScript (React, Node.js, Bun), Java and Kotlin, React Native mobile apps and Liferay, deployed on AWS and Azure. It practises AI-enhanced, human-guided development, delivers solutions together with clients' business teams and trains development teams in modern coding, deployment and operations practice.
 
 ## Services
 
-- **Java web applications**: design and development of Java web applications and services with Spring and Spring Boot, together with the client's business team, from architecture decisions through to production.
-- **React and micro-frontends**: React applications for enterprise environments, React Native apps for mobile, and splitting large front ends into micro-frontends that teams can ship independently.
+- **Full-stack TypeScript** (main focus): applications with React on the front end and Node.js or Bun on the back end, including micro-frontend architectures that let teams ship independently.
+- **Java and Kotlin**: back-end services and web applications with Spring Boot, from architecture decisions through to production.
+- **Mobile with React Native**: cross-platform mobile apps with React Native, and Progressive Web Apps where a browser is enough.
 - **Liferay**: in-depth Liferay consulting (the founder spent two years as a consultant at Liferay itself), design of large deployments, and development on Liferay.
+- **Cloud on AWS and Azure**: cloud deployment architectures with infrastructure as code, containers and automated CI/CD pipelines.
 - **Team training**: training and day-to-day mentoring shaped around the client's company that brings engineers up to date across coding, deployment and operations.
 
-Core technologies: Java, Spring Boot, React, React Native, Node.js, Liferay DXP, Docker, Amazon Web Services (AWS), CI/CD.
+Core technologies, in order of focus: TypeScript, React, Node.js, Bun, Java, Kotlin, Spring Boot, React Native, Liferay DXP, Amazon Web Services (AWS), Microsoft Azure, Docker, CI/CD.
+
+## AI-enhanced, human-guided development
+
+Ligas Consulting uses AI-assisted development to deliver faster. Experienced engineers guide the work: they set the architecture, review every change and remain accountable for quality. The team also builds AI-powered features into clients' products.
 
 ## Clients
 
@@ -17,12 +23,13 @@ Ligas Consulting has worked with Vodafone, T-Mobile Czech Republic, Hays, Capita
 
 ## Founder
 
-Miroslav Ligas is the founder and lead consultant of Ligas Consulting, founded in 2016. He is a solution architect and Liferay specialist with over 15 years of commercial experience in enterprise Java, full-stack React, large Liferay deployments and AWS infrastructure. He stays hands-on in every engagement: designing architectures, writing and reviewing production code and mentoring developers. He studied at the Faculty of Informatics at Masaryk University in Brno and is based in London.
+Miroslav Ligas is the founder and lead consultant of Ligas Consulting, founded in 2016. He is a solution architect and Liferay specialist with over 15 years of commercial experience in full-stack TypeScript with React and Node.js, enterprise Java, React Native, large Liferay deployments, AWS infrastructure and AI-assisted development. He stays hands-on in every engagement: designing architectures, writing and reviewing production code and mentoring developers. He studied at the Faculty of Informatics at Masaryk University in Brno and is based in London.
 
 - LinkedIn: https://www.linkedin.com/in/miroslav-ligas/
 
 ## How Ligas Consulting works
 
+- AI-enhanced, human-guided: AI tools speed up delivery while experienced engineers set the direction and review every change.
 - Works directly with the client's business team so the solution fits how the business operates.
 - Fits every engagement to the client's stack, constraints and people.
 - Cares about the whole lifecycle: builds, deployment and keeping systems healthy in production.

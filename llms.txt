@@ -23,7 +23,7 @@ Ligas Consulting has worked with Vodafone, T-Mobile Czech Republic, Hays, Capita
 
 ## Founder
 
-Miroslav Ligas is the founder and lead consultant of Ligas Consulting, founded in 2016. He is a solution architect and Liferay specialist with over 15 years of commercial experience in full-stack TypeScript with React and Node.js, enterprise Java, React Native, large Liferay deployments, AWS infrastructure and AI-assisted development. He stays hands-on in every engagement: designing architectures, writing and reviewing production code and mentoring developers. He studied at the Faculty of Informatics at Masaryk University in Brno and is based in London.
+Miroslav Ligas is the founder and lead consultant of Ligas Consulting, founded in 2016. He is a solution architect and Liferay specialist with 20 years of commercial experience in full-stack TypeScript with React and Node.js, enterprise Java, React Native, large Liferay deployments, AWS infrastructure and AI-assisted development. He stays hands-on in every engagement: designing architectures, writing and reviewing production code and mentoring developers. He studied at the Faculty of Informatics at Masaryk University in Brno and is based in London.
 
 - LinkedIn: https://www.linkedin.com/in/miroslav-ligas/
 

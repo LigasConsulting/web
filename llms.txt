@@ -13,9 +13,9 @@ Core technologies: Java, Spring Boot, React, React Native, Node.js, Liferay DXP,
 
 ## Clients
 
-- **Vodafone** (telecommunications, 2017 to 2024): technical architecture for Vodafone's Liferay portal platform; helped build an internal team delivering a reusable portal and UI framework; led a team of four developers on the ADAM digital transformation programme.
-- **Proventeq** (content migration software, since 2017): Liferay expertise for Proventeq's Liferay projects; designed the base architecture and built the working prototype of their new ETL product on Kafka, Spring, React and Elasticsearch, with AI models for data enrichment.
-- **Charity Commission for England and Wales** (public sector, 2016 to 2017): designed the Liferay DXP layer of a new digital services platform integrated with MuleSoft and JBoss BRMS, and led the Liferay development team.
+- **Vodafone** (telecommunications, 2017 to 2024): long-term technical architecture on Liferay portal platforms; reviewed and improved existing implementations, helped build up an internal development team and led developers on digital transformation work.
+- **Proventeq** (content migration software, since 2017): Liferay subject-matter expertise, solution architecture and hands-on engineering for product development.
+- **Charity Commission for England and Wales** (public sector, 2016 to 2017): Liferay DXP solution design for a public-facing digital platform integrated with the wider enterprise landscape, and leadership of the Liferay development team.
 - Earlier engagements and roles include Liferay, Inchcape, Capita Employee Benefits and IBA CZ.
 
 ## Founder
